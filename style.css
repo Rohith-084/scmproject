@@ -48,6 +48,7 @@ p {
     text-align: center;
 }
 footer {
+<<<<<<< HEAD
     background-color: #eee;
     color: #555;
     text-align: center;
@@ -55,6 +56,14 @@ footer {
     margin-top: 40px;
     font-size: 0.9em;
     border-top: 1px solid #ccc;
+=======
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 60px;
+    font-size: 1em;
+    line-height: 1.8;
     width: 100%;
     box-sizing: border-box;
 }
@@ -72,4 +81,29 @@ footer a {
 footer a:hover {
     text-decoration: underline;
     color: #333;
+    margin: 8px 0;
+    padding: 0;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    margin: 0 8px;
+}
+
+footer a:hover {
+    color: #ecf0f1;
+    text-decoration: underline;
+}
+
+footer p:first-of-type {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+footer p:last-of-type {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #bdc3c7;
 }
